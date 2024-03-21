@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class And_Or1 {
     
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
+        // esse "SuppressWarnings" Serve para ignorar avisos do sistema.
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite a nota do aluno");
         int nota = teclado.nextInt();

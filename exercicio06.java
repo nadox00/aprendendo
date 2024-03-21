@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class exercicio06 {
 
     public static void main(String[] args) {
+        @SuppressWarnings ("resource")
         Scanner teclado = new Scanner(System.in);
+        
         System.out.println("Lua ou Marte ?");
         String planeta = teclado.nextLine();
         

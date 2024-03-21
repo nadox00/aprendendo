@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class And_Or2 {
     
     public static void main(String[] args) {
+        @SuppressWarnings ("resource")
+        
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite a nota do aluno");
         int nota = teclado.nextInt();
