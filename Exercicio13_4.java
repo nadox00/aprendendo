@@ -7,8 +7,8 @@ public class Exercicio13_4 {
         
         int idade = 0;
         int maior = 0;
+        System.out.println("Quais são as idades ? ");
         for (int i = 1; i <= 5; i++) {
-            System.out.println("Quais são as idades ? ");
             idade = teclado.nextInt();
 
             if (idade >= 18) {
