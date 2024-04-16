@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+@SuppressWarnings ("resource")
 public class Switch_Case {
 
     public static void main(String[] args) {

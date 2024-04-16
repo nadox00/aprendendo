@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
-public class Exercicio13_6 {
+public class Exercicio13_6H {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner teclado = new Scanner(System.in);
 
         int num = 0;

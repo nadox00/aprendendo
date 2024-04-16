@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Exercicio13_5H {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite um numero");
         int num = teclado.nextInt();

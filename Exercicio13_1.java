@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+@SuppressWarnings("unused")
 public class Exercicio13_1 {
     public static void main(String[] args) {
         int soma = 0;

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+@SuppressWarnings("resource")
 public class Exercicio13_8 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);

@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Exercicio11 {
 
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
     System.out.println("Digite um numero de 1 a 7 que representará o dia da semana");

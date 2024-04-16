@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Exercicio13_2 {
 
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite seu nome de usuario");
         String user = teclado.nextLine();
